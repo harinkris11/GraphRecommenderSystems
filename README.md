@@ -21,7 +21,7 @@ The description of various hyper-parameters is given below.
 The Hyperparameter testing on Max_Nodes_Per_Hop has been performed by keeping values of others as constant.
 Below is the graph depicting the relation of training loss across various Max_Nodes_Per_Hop configurations.
 
-<img title=Comparison of training loss over max_nodes_hop" alt="Alt text" src="/images/TrainingLossVsMaxHops.png">
+<img title=Comparison of training loss over max_nodes_hop" alt="Alt text" src="TrainingLossVsMaxHops.png">
 
 It can be seen that as the maximum nodes increase, loss values tends to decrease for a specific number of epochs.
   
