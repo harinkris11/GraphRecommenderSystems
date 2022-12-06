@@ -44,6 +44,5 @@ The comparison of various metrics over the test set on different max_nodes_per_h
 |         | MSE     | Precision@10 |  Recall@10 | F1 Score | Time Per Epoch | 
 |--------------|-----------|------------|------------|------------| ------------|
 | MF |  0.9045 | 0.55 | 0.47 | 0.4902 | 5 sec | 
-
 | IGMC |  0.8371 | 0.7095 | 0.4446 | 0.5466 | 200 sec |
 
