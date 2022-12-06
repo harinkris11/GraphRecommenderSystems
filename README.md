@@ -24,4 +24,12 @@ Below is the graph depicting the relation of training loss across various Max_No
 <img title="Comparison of training loss over max_nodes_hop" alt="Alt text" src="TrainingLossVsMaxHops.png">
 
 It can be seen that as the maximum nodes increase, loss values tends to decrease for a specific number of epochs.
-  
+
+| Metric        | 10-Nodes     | 50-Nodes |  100-Nodes |  200-Nodes | 
+|--------------|-----------|------------|------------|------------|
+| MSE | 1.032 | 0.8701 | 0.8492 | 0.8371 |
+| Precision@10 | 0.5578 | 0.6521 | 0.6655 | 0.7095 |
+| Recall@10 | 0.3876 | 0.4435 | 0.4219 | 0.4446 |
+| F-1 Score | 0.4762 | 0.5279 | 0.5164 | 0.5466 |
+| Time per Epoch | 50 sec | 90 sec | 125 sec | 200 sec |
+
