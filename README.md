@@ -5,8 +5,8 @@ The commands used to run the train and test the model is given below
   
   from Main import train
   Params = {'Epochs':40, 'Batch_Size':50, 'LR': 1e-3, 'LR_Decay_Step' : 20, 'LR_Decay_Value' : 10, 'Max_Nodes_Per_Hop':200}
-  losses, model, test_loader = train(params = Params)
-  test(model, test_loader, topK=10)
+  losses, model, test_loader, test_ratings = train(params = Params)
+  test(model, test_loader, test_ratings, topK=10)
 
 The description of various hyper-parameters is given below.
 
