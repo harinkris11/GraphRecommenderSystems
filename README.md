@@ -1,7 +1,28 @@
 # Graph Recommender Systems
 The focus of the project is to implement and compare the traditional Matrix Factorization (numerical linear algebra) approach and IGMC (SOTA) approach across various metrics.
+
 **Matrix Factorization**
 The code for the matrix factorization is available under the folder MF. It is a jupyter notebook with instructions/comments to run added towards every step.
+
+The description of various hyper-parameters is given below.
+
+* Learning rate (alpha) = 0.001
+* Regularization Coefficient (l) = 0.01
+* Number of steps of gradient descent (steps) = 40
+* Number of latent features (lf) = 10
+
+To find the best possible number of latent factors, the matrix factorization model was trained for different values of lf (10, 15, 20, 25). The graph for comparison of Test MSE and Number of Latent Factors is given below. 
+
+<img title="Test MSE VS Number of Latent Factors" alt="Alt text" src="TestMSEvsLF.png">
+
+The results are summarized in the table below:
+
+| Number of Latent Features        | Final Training MSE     | MSE on test set | 
+|--------------|-----------|------------|
+| 10 | 0.8495 | 0.9045 |
+| 15 | 0.8536 | 0.9162 |
+| 20 | 0.8551 | 0.9211 |
+| 25 | 0.8554 | 0.9223 |
 
 **IGMC**
 The code for the IGMC model is available under the folder IGMC.
