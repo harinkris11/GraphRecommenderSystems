@@ -1,5 +1,6 @@
 # Graph Recommender Systems
 The focus of the project is to implement and compare the traditional Matrix Factorization (numerical linear algebra) approach and IGMC (SOTA) approach across various metrics.
+
 **Matrix Factorization**
 The code for the matrix factorization is available under the folder MF. It is a jupyter notebook with instructions/comments to run added towards every step.
 
